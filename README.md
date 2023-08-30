@@ -24,9 +24,11 @@
 
 2. 设置环境变量
     - `WR_BOOK_NAME`: 导出的书名称
-    - `WR_VID`, `WR_SKEY`: 从网页登录微信读书，获取 `cookies` 中的 `wr_vid` 和 `wr_skey`
+    - `WR_VID`, `WR_SKEY`: 从网页登录微信读书，获取 `cookies` 中的 `wr_vid` 和 `wr_skey`, 其中 wr_vid 是用户固定的，获取一次就可以，每次只需获取 `wr_skey`
   
 3. 运行 `run.py`， 导出的文件在 `books` 目录下
+
+注意：如果要导出的书籍中不存在任何标注或者笔记，则不会被导出
    
 
 ## todo
