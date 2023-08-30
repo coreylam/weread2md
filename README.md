@@ -23,7 +23,7 @@
 1. 在 `md_tmpl.py` 文件中，可以自定义展示的模版，目前支持的关键字都在里面，如果需要扩展信息，需修改脚本
 
 2. 设置环境变量
-    - `WR_BOOK_NAME`: 导出的书名称
+    - `WR_BOOK_NAME`: 导出的书名称（为空时导出全部）
     - `WR_VID`, `WR_SKEY`: 从网页登录微信读书，获取 `cookies` 中的 `wr_vid` 和 `wr_skey`, 其中 wr_vid 是用户固定的，获取一次就可以，每次只需获取 `wr_skey`
   
 3. 运行 `run.py`， 导出的文件在 `books` 目录下
@@ -33,7 +33,6 @@
 ## 效果
 
 通过 CICD 平台，创建一个流水线，只需要触发流水线，就可以生成对应的摘要文件。
-，
 
 ![](https://picgo-1256712489.cos.ap-chongqing.myqcloud.com/img/202308301559328.png)
 
