@@ -1,4 +1,6 @@
 # weread2md
+ 
+ - [weread2md](https://github.com/coreylam/weread2md)
 获取微信读书的笔记与标注，并整理成markdown格式
 
 ## 背景
@@ -41,6 +43,16 @@
 ![](https://picgo-1256712489.cos.ap-chongqing.myqcloud.com/img/202308301559110.png)
 
 *说明： 将生成的文件放到制品库不是最佳的选择，这里只是一个案例，主要是展示可以通过这种方式，将生成的文件放到任何一个地方（例如发布博客，或者提交github，或者发到指定的数据库等等）*
+
+## 结合 pywebio
+
+pywebio 可以简易的生成网站，结合 pywebio，可以编写拉取指定页面的工具，以及展示所有笔记的工具, 参考另一篇[文章](https://www.cnblogs.com/coreylin/p/17668505.html)效果如下：
+
+![](https://picgo-1256712489.cos.ap-chongqing.myqcloud.com/img/202309010907922.png)
+
+![](https://picgo-1256712489.cos.ap-chongqing.myqcloud.com/img/202309010909825.png)
+
+![](https://picgo-1256712489.cos.ap-chongqing.myqcloud.com/img/202309010910636.png)
 
 ## todo
 - 增加时间判断，支持获取某个时间段之后的所有读书笔记
