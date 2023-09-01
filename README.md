@@ -1,6 +1,7 @@
-# weread2md
+# 导出微信读书个人笔记
  
  - [weread2md](https://github.com/coreylam/weread2md)
+
 获取微信读书的笔记与标注，并整理成markdown格式
 
 ## 背景
